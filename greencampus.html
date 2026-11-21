@@ -1,0 +1,324 @@
+
+    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCampus</title>
+    <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h2>🌿 GreenCampus</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#report">Report Issue</a>
+            <a href="#ideas">Green Ideas</a>
+            <a href="#suggest">Suggestions</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <div>
+            <span class="tag">A CLEANER CAMPUS STARTS WITH YOU</span>
+            <h1>Let's Make Our Campus <span>Cleaner & Greener.</span></h1>
+            <p>
+                Report cleanliness issues, share eco-friendly ideas
+                and help build a healthier college environment.
+            </p>
+            <a href="#report" class="btn">Report an Issue →</a>
+            <a href="#ideas" class="btn outline">Explore Green Ideas</a>
+        </div>
+        <div class="plant">🌱</div>
+    </section>
+
+    <main class="container">
+
+        <!-- Overview -->
+        <section class="stats">
+            <a href="#report" class="stat">
+                <h2>🧹</h2>
+                <h3>Report Issues</h3>
+                <p>Maintain campus cleanliness.</p>
+            </a>
+            <a href="#ideas" class="stat">
+    <h2>🌳</h2>
+    <h3>Think Green</h3>
+    <p>Share sustainable solutions.</p>
+</a>
+
+            
+
+            <a href="#suggest" class="stat">
+                <h2>🤝</h2>
+                <h3>Work Together</h3>
+                <p>Support your community.</p>
+      </a>
+        </section>
+
+        <!-- Cleanliness Report -->
+        <section class="section" id="report">
+            <div class="heading">
+                <h2>Campus Cleanliness Report</h2>
+                <p>Found a problem? Tell us where it needs attention.</p>
+            </div>
+
+            <div class="report">
+
+                <div class="card">
+                    <h3>📝 Report a Cleanliness Issue</h3>
+                    <p>Provide the location and details of the issue.</p>
+
+                    <form action="#" method="get">
+
+                        <div class="form-row">
+                            <div>
+                                <label for="block">Block</label>
+                                <select id="block" required>
+                                    <option value="">Select block</option>
+                                    <option>Block A</option>
+                                    <option>Block B</option>
+                                    <option>Block C</option>
+                                    <option>Block D</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="floor">Floor</label>
+                                <select id="floor" required>
+                                    <option value="">Select floor</option>
+                                    <option>Ground Floor</option>
+                                    <option>First Floor</option>
+                                    <option>Second Floor</option>
+                                    <option>Third Floor</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <label for="location">Specific Location</label>
+                        <select id="location" required>
+                            <option value="">Choose location</option>
+                            <option>Washroom</option>
+                            <option>Grounds / Garden</option>
+                            <option>Classroom</option>
+                            <option>Corridor</option>
+                            <option>Canteen</option>
+                            <option>Other</option>
+                        </select>
+
+                        <label for="issue">Issue Category</label>
+                        <select id="issue" required>
+                            <option value="">Select issue</option>
+                            <option>Garbage Overflow</option>
+                            <option>Water Leak</option>
+                            <option>Dirty Washroom</option>
+                            <option>Lights Left On</option>
+                        </select>
+
+                        <label for="description">Issue Description</label>
+                        <textarea id="description"
+                            placeholder="Describe the issue and its location..."
+                            required></textarea>
+
+                        <button class="btn full">Submit Cleanliness Report →</button>
+                    </form>
+                </div>
+
+                <!-- Priority Guide -->
+                <div class="card">
+                    <h3>🚦 Issue Priority Guide</h3>
+                    <p>Priority levels for common campus issues.</p>
+
+                    <div class="priority">
+                        <div>
+                            <b>Garbage Overflow</b>
+                            <small>Overflowing waste bins</small>
+                        </div>
+                        <span class="high">High</span>
+                    </div>
+
+                    <div class="priority">
+                        <div>
+                            <b>Water Leak</b>
+                            <small>Leaking taps or pipes</small>
+                        </div>
+                        <span class="high">High</span>
+                    </div>
+
+                    <div class="priority">
+                        <div>
+                            <b>Dirty Washroom</b>
+                            <small>Cleaning required</small>
+                        </div>
+                        <span class="medium">Medium</span>
+                    </div>
+
+                    <div class="priority">
+                        <div>
+                            <b>Lights Left On</b>
+                            <small>Unnecessary electricity use</small>
+                        </div>
+                        <span class="normal">Normal</span>
+                    </div>
+
+                    <div class="note">
+                        💡 These are example priority levels.
+                        Actual priority depends on the seriousness of the issue.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Green Ideas -->
+        <section class="section" id="ideas">
+            <div class="heading">
+                <h2>Green Campus Ideas 🌱</h2>
+                <p>Discover ways to make our college more sustainable.</p>
+            </div>
+
+            <div class="ideas-title">
+                <h3>Student Suggestions</h3>
+                <a href="#suggest" class="btn">+ Share Your Idea</a>
+            </div>
+
+            <div class="ideas">
+
+                <div class="idea">
+                    <div class="idea-top">
+                        <span class="idea-icon">♻️</span>
+                        <span class="normal">Waste Management</span>
+                    </div>
+                    <h3>Install Waste Segregation Bins</h3>
+                    <p>
+                        Place separate bins for wet waste, dry waste
+                        and recyclable materials.
+                    </p>
+                    <small>Suggested by: Student Community</small>
+                    <br><br>
+                    <input type="checkbox" id="vote1">
+                    <label for="vote1" class="vote">♡ Upvote this idea</label>
+                </div>
+
+                <div class="idea">
+                    <div class="idea-top">
+                        <span class="idea-icon">💧</span>
+                        <span class="normal">Water Saving</span>
+                    </div>
+                    <h3>Rainwater Harvesting</h3>
+                    <p>
+                        Collect rainwater from rooftops and reuse
+                        it for gardening.
+                    </p>
+                    <small>Suggested by: Student Community</small>
+                    <br><br>
+                    <input type="checkbox" id="vote2">
+                    <label for="vote2" class="vote">♡ Upvote this idea</label>
+                </div>
+
+                <div class="idea">
+                    <div class="idea-top">
+                        <span class="idea-icon">🌳</span>
+                        <span class="normal">Greenery</span>
+                    </div>
+                    <h3>One Student, One Plant</h3>
+                    <p>
+                        Encourage students to plant and take care
+                        of trees on campus.
+                    </p>
+                    <small>Suggested by: Student Community</small>
+                    <br><br>
+                    <input type="checkbox" id="vote3">
+                    <label for="vote3" class="vote">♡ Upvote this idea</label>
+                </div>
+
+                <div class="idea">
+                    <div class="idea-top">
+                        <span class="idea-icon">💡</span>
+                        <span class="normal">Energy Saving</span>
+                    </div>
+                    <h3>Switch Off, Save Energy</h3>
+                    <p>
+                        Remind students to switch off lights and fans
+                        when they are not needed.
+                    </p>
+                    <small>Suggested by: Student Community</small>
+                    <br><br>
+                    <input type="checkbox" id="vote4">
+                    <label for="vote4" class="vote">♡ Upvote this idea</label>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Suggestion Form -->
+    <section class="suggest-section" id="suggest">
+        <div class="container suggestion">
+
+            <div class="suggest-text">
+                <span class="tag">YOUR IDEA MATTERS</span>
+                <h2>Have an Idea for a Greener Campus?</h2>
+                <p>
+                    Every small action can make a big difference.
+                    Share your eco-friendly ideas and inspire others.
+                </p>
+
+                <p>🌱 Encourage sustainable habits</p>
+                <p>♻️ Reduce waste and pollution</p>
+                <p>🤝 Build a responsible campus community</p>
+            </div>
+
+            <div class="card">
+                <h3>💚 Submit Your Green Idea</h3>
+                <p>Share your suggestion with the campus community.</p>
+
+                <form action="#" method="get">
+
+                    <label for="student">Student Name</label>
+                    <input type="text" id="student"
+                        placeholder="Enter your name" required>
+
+                    <label for="title">Idea Title</label>
+                    <input type="text" id="title"
+                        placeholder="e.g. Plastic-Free Campus" required>
+
+                    <label for="category">Idea Category</label>
+                    <select id="category" required>
+                        <option value="">Select category</option>
+                        <option>Waste Management</option>
+                        <option>Water Conservation</option>
+                        <option>Energy Saving</option>
+                        <option>Tree Plantation</option>
+                        <option>Plastic Reduction</option>
+                        <option>Other</option>
+                    </select>
+
+                    <label for="idea-description">Describe Your Idea</label>
+                    <textarea id="idea-description"
+                        placeholder="How will your idea help our campus?"
+                        required></textarea>
+
+                    <button class="btn full">Submit Green Idea 🌿</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>🌿 GreenCampus — Clean Campus, Green Future</h3>
+        <p>Small Actions. Big Impact. A Sustainable Tomorrow.</p>
+    </footer>
+
+</body>
+</html>
